@@ -1,0 +1,19 @@
+.projetos{
+    width: 100%;
+    height: 778px;
+
+}
+
+.imagem{
+    width: 536px;
+    height: 393px;
+    border-radius: 10px;
+
+}
+
+.btn{
+    border-radius: 55px;
+    border: solid 1px #094554;
+    width: 168px;
+    height: 48px;
+}
