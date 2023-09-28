@@ -1,0 +1,56 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.bippfellows{
+    margin: 56px 0px;
+}
+
+.bippfellows h2{
+    font-size: 32px;
+    color: #094554;
+    font-weight: 700;
+}
+
+.bippfellows .section-text p{
+    font-size: 16px;
+    color: #5D5D5C;
+    font-weight: 400;
+}
+
+.bippfellows .card{
+    background-color: #094554;
+    color: #FFFFFF;
+    border-radius: 8px;
+    min-height: 258px;
+}
+
+.bippfellows .card h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bippfellows .card p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bippfellows .card a{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #29B4BB;
+    border-radius: 24px;
+    padding: 10px 14px;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 575px) {
+    .bippfellows .card{
+        min-height: 210px;
+        margin: 16px 0px;
+    }
+}
