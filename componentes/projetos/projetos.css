@@ -1,5 +1,22 @@
-.box{
-    width: 200px;
-    height: 100px;
-    background-color: gray;
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.numeros{
+    background-color: #F2F2F2;
+    padding: 68px 0px;
+}
+
+h2.numeros-text{
+    color: #094554;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.logo{ 
+    height: 173px;
+    border: none;
+    background-color: #D1D1D0; 
+   
 }
