@@ -1,6 +1,6 @@
 .bippia{
     background: rgb(9,69,84);
-    background: linear-gradient(309deg, rgba(9,69,84,1) 0%, rgba(27,132,143,1) 50%, rgba(41,180,187,1) 100%);
+    background: linear-gradient(309deg, rgba(9,69,84,1) 0%, rgba(27,132,143,1) 50%, hsl(183, 64%, 45%) 100%);
     color: white;
     padding: 86px 0px 128px 0px;
 }
