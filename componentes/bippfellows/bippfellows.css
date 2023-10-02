@@ -49,7 +49,7 @@ body{
 /* MEDIA QUERIES*/
 
 @media (max-width: 575px) {
-    .bippfellows .card{
+    .bippfellows .item-card{
         min-height: 210px;
         margin: 16px 0px;
     }
