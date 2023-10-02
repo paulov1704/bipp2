@@ -54,3 +54,9 @@ body{
         margin: 16px 0px;
     }
 }
+
+@media (max-width: 1199px) {
+    .bippfellows .card h5{
+        font-size: 18px;
+    }
+}
