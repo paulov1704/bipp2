@@ -1,0 +1,54 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.cursos{
+    background: #fff;
+    background: linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
+    /* background-image: url(../../assets/images/bippia-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+
+    background-blend-mode: multiply; */
+    color: white;
+    padding: 94px 0px 116px 0px;
+}
+
+.cursos h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+form.search-bar{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: stretch;
+}
+
+form.search-bar input{
+    height: 100%;
+}
+
+img.search-icon{
+    width: 20px;
+    height: 20px;
+}
+
+form.search-bar button{
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-left: 1px solid pink;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 767px) {
+    .bippia h1{
+        font-size: 36px;
+    }
+}
