@@ -1,0 +1,36 @@
+.bippia{
+    background: rgb(9,69,84);
+    background: linear-gradient(309deg, rgba(9,69,84,1) 0%, rgba(27,132,143,1) 50%, rgba(41,180,187,1) 100%);
+    color: white;
+    padding: 86px 0px 128px 0px;
+}
+
+.bippia p{
+    width: 40%;
+    margin-bottom: 2rem;
+}
+
+.bippia button{
+    background-color: transparent;
+    border-radius: 24px;
+    padding: 12px 58px;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 991px) {
+    .bippia p{
+        width: 65%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .bippia p{
+        width: 85%;
+    }
+}
