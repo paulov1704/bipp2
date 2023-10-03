@@ -1,0 +1,78 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.curso{
+    background: #fff;
+    background: #094554;
+    color: white;
+    padding: 122px 0px 127px 0px;
+}
+
+.curso h1, p{
+    width: 40%;
+}
+
+.curso h1{
+    margin-bottom: 19px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.curso p{
+    margin-bottom: 37px;
+    font-size: 18px;
+}
+
+.curso button{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #29B4BB;
+    padding: 13px 60px;
+    border: none;
+    border-radius: 24px;
+}
+
+
+/* MEDIA QUERIES*/
+@media (max-width: 1199px) {
+    .curso h1, p{
+        width: 45%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .curso h1, p{
+        width: 65%;
+    }
+}
+
+@media (max-width: 767px) {
+    .curso h1, p{
+        width: 70%;
+    }
+
+    .curso h1{
+        font-size: 50px;
+    }
+
+    .curso p{
+        font-size: 16px;
+    }
+
+    .curso button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 509px) {
+    .curso h1{
+        font-size: 44px;
+    }
+
+    .curso h1, p{
+        width: 85%;
+    }
+}
