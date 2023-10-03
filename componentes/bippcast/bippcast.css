@@ -2,35 +2,30 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.bippia{
-<<<<<<< HEAD
-    background: rgb(9,69,84);
-    background: linear-gradient(309deg, rgba(9,69,84,1) 0%, rgba(27,132,143,1) 50%, hsl(183, 64%, 45%) 100%);
-=======
+.bippcast{
     background: #fff;
     background: linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
-    background-image: url(../../assets/images/bippia-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
+    background-image: url(../../assets/images/bippcast-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
 
     background-blend-mode: multiply;
->>>>>>> cbdc7d411c448ebb3419fdaf5d00bc3fa005da06
     color: white;
     padding: 86px 0px 128px 0px;
 }
 
-.bippia h1{
+.bippcast h1{
     font-size: 40px;
     font-weight: 700;
 }
 
-.bippia p{
+.bippcast p{
     font-size: 16px;
     width: 40%;
     margin-bottom: 2rem;
 }
 
-.bippia button{
+.bippcast button{
     background-color: transparent;
     border-radius: 24px;
     padding: 12px 58px;
@@ -43,23 +38,23 @@ body{
 /* MEDIA QUERIES*/
 
 @media (max-width: 991px) {
-    .bippia p{
+    .bippcast p{
         width: 65%;
         margin-bottom: 1.5rem;
     }
 }
 
 @media (max-width: 767px) {
-    .bippia p{
+    .bippcast p{
         font-size: 14px;
         width: 85%;
     }
 
-    .bippia h1{
+    .bippcast h1{
         font-size: 36px;
     }
 
-    .bippia button{
+    .bippcast button{
         font-size: 14px;
     }
 }
