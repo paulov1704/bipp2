@@ -2,7 +2,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.cursos{
+.eventos{
     background: #fff;
     background: linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     /* background-image: url(../../assets/images/bippia-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%); */
@@ -13,7 +13,7 @@ body{
     padding: 94px 0px 116px 0px;
 }
 
-.cursos h1{
+.eventos h1{
     font-size: 40px;
     font-weight: 700;
 }
@@ -59,7 +59,7 @@ form.search-bar button{
 /* MEDIA QUERIES*/
 
 @media (max-width: 767px) {
-    .bippia h1{
+    .eventos h1{
         font-size: 36px;
     }
 }
