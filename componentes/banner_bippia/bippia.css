@@ -8,8 +8,8 @@ body{
     background-image: url(../../assets/images/bippia-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
-
     background-blend-mode: multiply;
+    background-position: top;
     color: white;
     padding: 86px 0px 128px 0px;
 }
