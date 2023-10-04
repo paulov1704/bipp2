@@ -3,23 +3,18 @@ body{
 }
 
 .bippia{
-<<<<<<< HEAD
     background: rgb(9,69,84);
     background: linear-gradient(309deg, rgba(9,69,84,1) 0%, rgba(27,132,143,1) 50%, hsl(183, 64%, 45%) 100%);
-=======
     background: #fff;
     background: linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-image: url(../../assets/images/bippia-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-<<<<<<< HEAD:componentes/bippia/bippia.css
->>>>>>> cbdc7d411c448ebb3419fdaf5d00bc3fa005da06
-=======
     background-position: top;
->>>>>>> 1635fca60e2be4814c615235bf8d3f9715a0ec65:componentes/banner_bippia/bippia.css
     color: white;
-    padding: 86px 0px 128px 0px;
+    min-height: 400px;
+    padding: 80px 0px;
 }
 
 .bippia h1{
@@ -53,6 +48,10 @@ body{
 }
 
 @media (max-width: 767px) {
+    .bippia{
+        min-height: 350px;
+    }
+
     .bippia p{
         font-size: 14px;
         width: 85%;
