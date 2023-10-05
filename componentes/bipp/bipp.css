@@ -1,7 +1,7 @@
-.projetos{
+/* .projetos{
    
 
-}
+} */
 
 .imagem{
     width: 536px;
@@ -11,7 +11,6 @@
 }
 
 .btn{
-    
     border: solid 1px #094554;
     width: 148px;
     height: 28px;
@@ -41,6 +40,10 @@
     border: none;
 
 }
+p{
+    font-size: auto;
+
+}
 
 .h2{
     font-family: 'Inter', sans-serif;
@@ -48,14 +51,43 @@
     font-weight: 700;
 }
 
-@media (max-width: 371px){
+@media (max){
 
+}
+
+@media (max-width: 767px){
     .btn,.saiba{
-        width: 128px;
+        width: 148px;
         height: 8px;
-        font-size: 14px;
-
+        margin-left: 10px;
     }
 
+    p{
+        text-align: center;
+        padding: 10px;
+    }
+    .h2{
+        text-align: center;
+    }
 
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px){
+   p{
+    font-size: 14px;
+    
+   }
+
+   .btn,.saiba{
+    width: 128px;
+    height: 8px;
+    margin-left: 10px;
+    font-size: 13px;
+}
 }
