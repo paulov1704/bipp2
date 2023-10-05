@@ -121,7 +121,7 @@ body{
 }
 
 @media (max-width: 991px){
-    .tab-pane.fade.show.active .item-card{
+    .tab-pane.fade .item-card{
         margin-top: 2rem;
     }
 }
@@ -132,15 +132,15 @@ body{
         padding-left: 15px;
     }
 
-    .tab-pane.fade.show.active article{
+    .tab-pane.fade article{
         order: 1;
     }
 
-    .tab-pane.fade.show.active figure{
+    .tab-pane.fade figure{
         order: 0;
     }
 
-    .tab-pane.fade.show.active .item-card{
+    .tab-pane.fade .item-card{
         order: 2;
     }
 
