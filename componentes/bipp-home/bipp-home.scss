@@ -1,0 +1,118 @@
+.bipp-home{
+    padding: 92px 0px 96px 0px;
+}
+
+.bipp-home .nav-pills a.nav-link.active{
+    background-color: #094554;
+}
+
+.nav-pills a.nav-link{
+    height: 48px;
+    width: 168px;
+    border-radius: 24px;
+    padding: 13px 0px 13px 0px;
+    outline: 1px solid #094554;
+    color: #094554;
+}
+
+.tab-pane.fade button{
+    padding: 14px 50px;
+    border-radius: 24px;
+}
+
+.tab-pane.fade .card{
+    border-radius: 8px;
+    min-height: 258px;
+}
+
+.tab-pane.fade .card a{
+    border-radius: 24px;
+    padding: 10px 14px;
+}
+
+
+/*MEDIA QUERIE*/
+
+@media (max-width: 1199px) {
+    .tab-pane.fade .card-text{
+        padding: 0px;
+    }
+
+    .tab-pane.fade .card-body h5.card-title{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .tab-pane.fade article{
+        padding-right: 28px;
+    }
+
+    .tab-pane.fade figure{
+        border-radius: 8px;
+        object-fit: contain;
+        overflow-x: hidden;
+    }
+
+    .tab-pane.fade img.img-fluid{
+        height: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 991px){
+    .tab-pane.fade .item-card{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 767px){
+    .tab-pane.fade figure{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .tab-pane.fade article{
+        order: 1;
+    }
+
+    .tab-pane.fade figure{
+        order: 0;
+    }
+
+    .tab-pane.fade .item-card{
+        order: 2;
+    }
+
+    .tab-pane.fade h5{
+        text-align: center;
+    }
+
+    .tab-pane.fade p{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .bipp-home h1{
+        text-align: center;
+    }
+
+    .bipp-home article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-pills a.nav-link, .tab-pane.fade p{
+        margin: 0px 10px;
+    }
+
+    .nav-pills a.nav-link, .tab-pane.fade p, .tab-pane.fade button{
+        font-size: 14px;
+    }
+
+    .bipp-home h1{
+        font-size: 36px;
+    }
+}

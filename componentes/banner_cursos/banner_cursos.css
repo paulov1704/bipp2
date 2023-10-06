@@ -24,7 +24,6 @@ form.search-bar{
     bottom: 28px;
     width: 100%;
     height: 56px;
-    display: flex;
 }
 
 form.search-bar input{
