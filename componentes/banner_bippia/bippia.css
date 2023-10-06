@@ -1,11 +1,4 @@
-body{
-    font-family: 'Inter', sans-serif;
-}
-
-.bippia{
-    background: rgb(9,69,84);
-    background: linear-gradient(309deg, rgba(9,69,84,1) 0%, rgba(27,132,143,1) 50%, hsl(183, 64%, 45%) 100%);
-    background: #fff;
+.s-bippia{
     background: linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-image: url(../../assets/images/bippia-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-repeat: no-repeat;
@@ -17,24 +10,16 @@ body{
     padding: 80px 0px;
 }
 
-.bippia h1{
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.bippia p{
-    font-size: 16px;
+.s-bippia p{
     width: 40%;
     margin-bottom: 2rem;
 }
 
-.bippia button{
+.s-bippia button{
     background-color: transparent;
     border-radius: 24px;
     padding: 12px 58px;
     opacity: 1;
-    font-size: 16px;
-    font-weight: 500;
 }
 
 
