@@ -1,0 +1,101 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.bipp-tabs{
+    padding: 92px 0px 96px 0px;
+}
+
+.bipp-tabs h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #094554;
+}
+
+.bipp-tabs ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bipp-tabs .nav-pills a.nav-link.active{
+    background-color: #094554;
+}
+
+.nav-pills a.nav-link{
+    height: 48px;
+    width: 168px;
+    text-align: center;
+    border-radius: 24px;
+    padding: 13px 0px 13px 0px;
+    margin-bottom: 52px;
+    font-weight: 500;
+    font-size: 16px;
+    outline: 1px solid #094554;
+    color: #094554;
+}
+
+.tab-pane.fade.show.active{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-pane.fade h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #094554;
+    margin-bottom: 16px;
+}
+
+.tab-pane.fade p{
+    font-size: 16px;
+    color: #5D5D5C;
+    margin-bottom: 55px;
+}
+
+.tab-pane.fade button{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #29B4BB;
+    padding: 14px 50px;
+    border: none;
+    border-radius: 24px;
+}
+
+.tab-pane.fade.show.active .pane-img{
+    align-self: flex-end;
+    background-color: #D1D1D0;
+    height: 393px;
+    width: 536px;
+    border-radius: 8px;
+}
+
+.tab-pane.fade .card{
+    background-color: #094554;
+    color: #FFFFFF;
+    border-radius: 8px;
+    min-height: 258px;
+}
+
+.tab-pane.fade .card h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tab-pane.fade .card p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tab-pane.fade .card a{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #29B4BB;
+    border-radius: 24px;
+    padding: 10px 14px;
+}

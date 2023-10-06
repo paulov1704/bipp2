@@ -6,7 +6,9 @@ body{
     background: #fff;
     background: #094554;
     color: white;
-    padding: 122px 0px 127px 0px;
+    min-height: 600px;
+    padding: 60px;
+    /* padding: 122px 0px 127px 0px; */
 }
 
 .curso h1, p{
@@ -50,12 +52,17 @@ body{
 }
 
 @media (max-width: 767px) {
+    .curso{
+        min-height: 550px;
+        padding: 50px;
+    }
+
     .curso h1, p{
-        width: 70%;
+        width: 75%;
     }
 
     .curso h1{
-        font-size: 50px;
+        font-size: 48px;
     }
 
     .curso p{
@@ -68,11 +75,22 @@ body{
 }
 
 @media (max-width: 509px) {
+    .curso{
+        min-height: 500px;
+        padding: 40px;
+    }
+
     .curso h1{
-        font-size: 44px;
+        font-size: 36px;
     }
 
     .curso h1, p{
-        width: 85%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 369px) {
+    .curso h1, p{
+        width: 100%;
     }
 }
