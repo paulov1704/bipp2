@@ -1,0 +1,28 @@
+.s-banner-sobre{
+    background: url(../../assets/images/banner_sobre.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+@media (max-width:576px){
+    
+    .article{
+        max-width: 300px;
+
+    }
+
+    .h1{
+        font-size: 36px;
+    }
+
+}
+
