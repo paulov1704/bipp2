@@ -1,8 +1,8 @@
-.bipp-home {
+section.s-bipp {
   padding: 92px 0px 96px 0px;
 }
 
-.bipp-home .nav-pills a.nav-link.active {
+section.s-bipp a.nav-link.active {
   background-color: #094554;
 }
 
