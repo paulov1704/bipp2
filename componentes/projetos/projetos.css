@@ -15,8 +15,13 @@ h2.numeros-text{
 }
 
 .logo{ 
-    height: 173px;
-    border: none;
-    background-color: #D1D1D0; 
+   width: 200px;
    
 }
+
+.projetos-text{
+    color: #094554;
+    font-weight: 700;
+    padding: 15px;
+
+} 
