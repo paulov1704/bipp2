@@ -32,9 +32,6 @@ section.s-bipp a.nav-link.active {
 
 /*MEDIA QUERIE*/
 @media (max-width: 1199px) {
-  .tab-pane.fade .card-text {
-    padding: 0px;
-  }
   .tab-pane.fade .card-body h5.card-title {
     font-size: 17px;
   }
