@@ -1,0 +1,25 @@
+.btn-presencial {
+    bottom: 25px; 
+    right: 35px; 
+    z-index: 1;
+ }
+ 
+ .banner-img{
+    border-radius: 8px;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url('../../assets/img-eventos.jpg');
+ }
+
+ .btn-danger1{
+    background-color:#D41654;
+    border-color: transparent;
+ } 
+ 
+ @media (max-width: 991px){
+    .buttons-eventos{
+       gap: 15px;
+    }
+ }
