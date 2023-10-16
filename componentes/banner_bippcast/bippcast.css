@@ -1,57 +1,38 @@
-.bippcast{
+.s-bippcast{
     background: linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-image: url(../../assets/images/bippcast-main.jpg), linear-gradient(310deg, rgba(27,132,143,1) 0%, rgba(41,180,187,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
     background-position: top;
-    min-height: 400px;
-    padding: 80px 0px;
+    min-height: 450px;
 }
 
-.bippcast p{
+.s-bippcast p{
     width: 40%;
-    margin-bottom: 2rem;
 }
 
-.bippcast button{
-    background-color: transparent;
+.s-bippcast button{
     border-radius: 24px;
     padding: 12px 58px;
     opacity: 1;
 }
 
-.btn-outline-light:hover {
-    color: #094554;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
-}
-
 
 /* MEDIA QUERIES*/
-
 @media (max-width: 991px) {
-    .bippcast p{
+    .s-bippcast p{
         width: 65%;
         margin-bottom: 1.5rem;
     }
 }
 
 @media (max-width: 767px) {
-    .bippcast{
-        min-height: 350px;
+    .s-bippcast p{
+        width: 90%;
     }
 
-    .bippcast p{
-        font-size: 14px;
-        width: 85%;
-    }
-
-    .bippcast h1{
-        font-size: 36px;
-    }
-
-    .bippcast button{
+    .s-bippia button{
         font-size: 14px;
     }
 }

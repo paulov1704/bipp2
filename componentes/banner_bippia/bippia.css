@@ -5,18 +5,14 @@
     background-size: cover;
     background-blend-mode: multiply;
     background-position: top;
-    color: white;
-    min-height: 400px;
-    padding: 80px 0px;
+    min-height: 450px;
 }
 
 .s-bippia p{
     width: 40%;
-    margin-bottom: 2rem;
 }
 
 .s-bippia button{
-    background-color: transparent;
     border-radius: 24px;
     padding: 12px 58px;
     opacity: 1;
@@ -24,29 +20,19 @@
 
 
 /* MEDIA QUERIES*/
-
 @media (max-width: 991px) {
-    .bippia p{
+    .s-bippia p{
         width: 65%;
         margin-bottom: 1.5rem;
     }
 }
 
 @media (max-width: 767px) {
-    .bippia{
-        min-height: 350px;
+    .s-bippia p{
+        width: 90%;
     }
 
-    .bippia p{
-        font-size: 14px;
-        width: 85%;
-    }
-
-    .bippia h1{
-        font-size: 36px;
-    }
-
-    .bippia button{
+    .s-bippia button{
         font-size: 14px;
     }
 }

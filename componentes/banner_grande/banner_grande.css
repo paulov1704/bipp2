@@ -1,10 +1,9 @@
 .s-banner-grande{
     min-height: 600px;
-    padding: 60px;
 }
 
 .s-banner-grande h1, p{
-    width: 40%;
+    width: 45%;
 }
 
 .s-banner-grande p{
@@ -18,31 +17,15 @@
 
 
 /* MEDIA QUERIES*/
-@media (max-width: 1199px) {
-    .s-banner-grande h1, p{
-        width: 45%;
-    }
-}
-
 @media (max-width: 991px) {
-
     .s-banner-grande h1, p{
-        width: 65%;
+        width: 75%;
     }
 }
 
 @media (max-width: 767px) {
-    .s-banner-grande{
-        min-height: 550px;
-        padding: 50px;
-    }
-
-    .s-banner-grande h1, p{
-        width: 75%;
-    }
-
     .s-banner-grande h1{
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .s-banner-grande p{
@@ -51,26 +34,5 @@
 
     .s-banner-grande button{
         font-size: 14px;
-    }
-}
-
-@media (max-width: 509px) {
-    .s-banner-grande{
-        min-height: 500px;
-        padding: 40px;
-    }
-
-    .s-banner-grande h1{
-        font-size: 36px;
-    }
-
-    .s-banner-grande h1, p{
-        width: 80%;
-    }
-}
-
-@media (max-width: 369px) {
-    .s-banner-grande h1, p{
-        width: 100%;
     }
 }
