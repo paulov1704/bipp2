@@ -1,0 +1,28 @@
+.s-foot{
+    height: 273px;
+}
+
+.imagem{
+    width: 216px;
+    height: 64px;
+}
+
+.item-list,.item-list-str{
+    list-style: none;
+}
+
+.item-list-str{
+    font-weight: 600;
+    color: #005252;
+    
+}
+
+.item-list{
+    font-size: 14px;
+    color: #797979;
+}
+
+.p{
+    font-size: 14px;
+    color: #797979;
+}
